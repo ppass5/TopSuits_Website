@@ -1,7 +1,44 @@
-.astro{
-  background-image:url(/images/astro.svg);
-  background-size:cover;
+/* Table of Contents
+1.0 DOM Resets
+2.0 Screens
+3.0 Astronaut Background
+4.0 Modals
+
+
+*/
+
+
+/* 3.0 Background Background*/
+
+#wrapper{
+  min-width: 1000px;
+}
+section{
+  min-height: 100vh;
+}
+
+#first{
+  background: url(/images/full_width.svg) no-repeat center;
+  background-size: cover;
+}
+#first .astro{
+  background-attachment: fixed;
+  background-position: center;
+  background-image:url(/images/full_width.svg);
+  background-size: cover;
   background-color:#150e37;
   background-repeat:no-repeat;
-  background-position:top;margin:0;padding:0;height:1900px;"
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: -1;
+  /* background-position:top;margin:0;padding:0; height:1000px;" */
 };
+
+
+/* 4.0 Modal*/
+.modal{
+
+}
