@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
     <link rel="stylesheet" href="css/Navigation-Clean.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 </head>
 
+<body>
     <div>
         <nav class="navbar navbar-light navbar-expand-md navigation-clean">
             <div class="container"><a class="navbar-brand" href="#welcome">TOPSUITS</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
@@ -30,6 +32,24 @@
   <div id="wrapper">
 
     <!--Hero-->
+    <div class="flip-container" id="team">
+      <div class="flipper">
+        <div class="front">
+          <img src="http://www.web-freelancer.com/images/eu.png"/>
+          <p>UI Design</p>
+          <div class="sub"><p>Morgan H. McKie</p></div>
+        </div>
+        <div class="back">
+          <p id="title">Morgan H. McKie</p>
+          <p>Lead UI Designer</p>
+          <p>Instagram: kyng_tut</p>
+          <p>Birth: 23 Nov 1992</p>
+          <a href="https://www.facebook.com/mmckie2" id="social">f</a>
+          <a href="https://twitter.com/m_mckie123" id="social">t</a>
+          <a href="https://www.linkedin.com/in/morgan-mckie-06aa0145" id="social">in</a>
+        </div>
+      </div>
+    </div>
 
     <section id="first">
 
@@ -37,6 +57,11 @@
           <!--Welcome-->
 
               <div class="container" id="welcome">
+                <!--<div class="animation-wrapper active">
+                  <div class="image"></div>
+                  <canvas id="animation-canvas"></canvas>
+                  <canvas id="animation-space-canvas"></canvas>
+                </div>-->
                   <div class="row">
                     <div class="col-sm-8">
                        <div class="welcome">
@@ -57,6 +82,7 @@
                     <div class="row">
                       <div class="col-sm-8">
                          <div class="team">
+
                             <!-- <h3>Meet The Top Suits Team</h3>
                               <div class="modal">
                                   <p>
@@ -145,6 +171,7 @@
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="js/zoom.js"></script>
+    <script src="js/profile.js"></script>
 
 </body>
 
