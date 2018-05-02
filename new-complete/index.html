@@ -11,11 +11,11 @@
     <link rel="stylesheet" href="assets/css/Animated-Scroll-Down-Mouse.css">
     <link rel="stylesheet" href="assets/css/Basic-fancyBox-Gallery.css">
     <link rel="stylesheet" href="assets/css/Gallery.css">
-    <link rel="stylesheet" href="assets/css/Gallery.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <link rel="stylesheet" href="assets/css/Lightbox-Gallery.css">
     <link rel="stylesheet" href="assets/css/Quote-Card.css">
+    <!-- <link rel="stylesheet" href="assets/css/flip.css"> -->
 
 </head>
 
@@ -35,8 +35,11 @@
             </div>
         </div>
     </nav>
-    <main class="page landing-page" >
-        <section class="clean-block clean-hero" style="background-image:url(&quot;assets/img/full_width.svg&quot;);color:rgba(33,37,41,0);"></section>
+    <main class="page landing-page" id="first">
+      <!--astro-->
+        <section class="clean-block clean-hero" style="background-image:url(&quot;assets/img/full_width.svg&quot;);color:rgba(33,37,41,0);"  id="first"></section>
+
+                <!--astro-->
         <section class="clean-block clean-info" id="welcome">
             <div class="container" >
                 <div class="block-heading" style="margin:0px ;">
@@ -48,6 +51,8 @@
                 </div>
             </div>
         </section>
+
+          <!--team-->
         <section class="clean-block about-us" id="team">
             <div class="container" >
                 <div class="block-heading">
@@ -55,15 +60,24 @@
                     <p style="width:600px;margin:0 px auto;">The team is made up of members from the University of Miami and University of North Florida. From backgrounds in biology to computer science, this electic team works together to achieve one end goal: Making cool stuff for space!</p>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col-sm-6 col-lg-4 col-xl-3">
-                        <div class="card clean-card text-center"><img class="card-img-top w-100 d-block" src="assets/img/avatars/avatar1.jpg">
-                            <div class="card-body info">
-                                <h4 class="card-title">John Smith</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <div class="icons"><a href="#"><i class="icon-social-facebook"></i></a><a href="#"><i class="icon-social-instagram"></i></a><a href="#"><i class="icon-social-twitter"></i></a></div>
-                            </div>
-                        </div>
+                  <div class="flip-container" id="team">
+                    <div class="flipper">
+                      <div class="front">
+                        <img src="http://www.web-freelancer.com/images/eu.png"/>
+                        <p>UI Design</p>
+                        <div class="sub"><p>Morgan H. McKie</p></div>
+                      </div>
+                      <div class="back">
+                        <p id="title">Morgan H. McKie</p>
+                        <p>Lead UI Designer</p>
+                        <p>Instagram: kyng_tut</p>
+                        <p>Birth: 23 Nov 1992</p>
+                        <a href="https://www.facebook.com/mmckie2" id="social">f</a>
+                        <a href="https://twitter.com/m_mckie123" id="social">t</a>
+                        <a href="https://www.linkedin.com/in/morgan-mckie-06aa0145" id="social">in</a>
+                      </div>
                     </div>
+                  </div>
                     <div class="col-sm-6 col-lg-4 col-xl-3">
                         <div class="card clean-card text-center"><img class="card-img-top w-100 d-block" src="assets/img/avatars/avatar2.jpg">
                             <div class="card-body info">
@@ -149,6 +163,10 @@
                 </div>
             </div>
         </section>
+
+        <!--team end-->
+
+          <!--ar-->
         <section class="clean-block features" id="ar">
             <div class="container">
                 <div class="block-heading">
@@ -263,6 +281,12 @@ Space systems rely on cutting-edge technology...we are dealing with a system tha
 </p>
 
 <cite>Brian Hicks, Developer</cite>            </blockquote></section>
+
+
+<!--ar end-->
+
+<!--nasa-->
+
     <section class="clean-block clean-info">
         <div class="container">
             <div class="block-heading" style="margin:0px ;">
@@ -282,6 +306,9 @@ Space systems rely on cutting-edge technology...we are dealing with a system tha
             </div>
         </div>
     </section>
+
+      <!--nasa end -->
+      <!--game-->
     <section class="clean-block clean-info" id="game">
         <div class="container">
             <div class="block-heading" style="margin:0px ;">
@@ -294,7 +321,12 @@ Space systems rely on cutting-edge technology...we are dealing with a system tha
                 <div class="col"><img class="img-fluid" src="assets/img/hero-background-nature.jpg"></div>
             </div>
         </div>
-    </section id="outreach">
+
+
+        <!--game end -->
+
+          <!--outreach gallery-->
+    <section id="outreach">
     <div class="photo-gallery">
         <div class="container">
             <div class="intro">
@@ -317,6 +349,11 @@ Space systems rely on cutting-edge technology...we are dealing with a system tha
             </div>
         </div>
     </div>
+   </section>
+
+
+
+
     <footer class="page-footer dark">
         <div class="container">
             <div class="row">
@@ -366,8 +403,8 @@ Space systems rely on cutting-edge technology...we are dealing with a system tha
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
     <script src="assets/js/theme.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
-    <script src="js/zoom.js"></script>
-    <script src="js/profile.js"></script>
+    <script src="assets/js/zoom.js"></script>
+    <script src="assets/js/profile.js"></script>
 </body>
 
 </html>
