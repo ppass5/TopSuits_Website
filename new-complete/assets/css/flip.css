@@ -129,14 +129,18 @@ h3 {
 
 .front {
   text-align:center;
-  padding-top:30px;
+  /*padding-top:px;*/
    background:#fff;
   z-index: 1;
 }
 
+.front p {
+  padding-top: 10px;
+}
+
 .flip-container, .front, .back {
   width: 14.375em;
-  height: 14.375em;
+  height: 20.375em;
 }
 
 .back {
@@ -147,7 +151,9 @@ h3 {
 }
 .back p {
   margin-left:30px;
-  color:white;font-weight:300;
+  font-style: italic;
+  color:white;
+  font-weight:300;
 }
 
 /*blur*/
