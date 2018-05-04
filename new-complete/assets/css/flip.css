@@ -75,8 +75,8 @@
 #social:hover {
   color:#fff;
 }
-img {
-  border-radius:50%;
+.front img{
+  border-radius:25%;
   height:120px;
 }
 .sub {
@@ -129,7 +129,7 @@ h3 {
 
 .front {
   text-align:center;
-  /*padding-top:px;*/
+  padding-top:30px;
    background:#fff;
   z-index: 1;
 }
