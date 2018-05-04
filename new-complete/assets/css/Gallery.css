@@ -52,7 +52,7 @@ footer {
 .footer-contacts p {
   display:inline-block;
   color:#ffffff;
-  vertical-align:middle;
+  /* vertical-align:middle; */
 }
 
 .footer-contacts p a {
@@ -63,13 +63,13 @@ footer {
 .fa.footer-contacts-icon {
   background-color:#33383b;
   color:#fff;
-  font-size:18px;
+  font-size:12px;
   width:38px;
   height:38px;
   border-radius:50%;
   text-align:center;
   line-height:38px;
-  margin:10px 15px 10px 0;
+  margin:10px 10px 10px 0;
 }
 
 span.new-line-span {
