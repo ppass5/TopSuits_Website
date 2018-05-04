@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
-    <link rel="stylesheet" href="assets/css/Animated-Scroll-Down-Mouse.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/Basic-fancyBox-Gallery.css">
     <link rel="stylesheet" href="assets/css/Gallery.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css">
@@ -16,6 +16,9 @@
     <link rel="stylesheet" href="assets/css/Lightbox-Gallery.css">
     <link rel="stylesheet" href="assets/css/Quote-Card.css">
     <link rel="stylesheet" href="assets/css/flip.css">
+    <link rel="stylesheet" href="assets/TemplateData/style.css">
+
+
 
 </head>
 
@@ -353,12 +356,12 @@ Space systems rely on cutting-edge technology...we are dealing with a system tha
         </div>
         <div class="container">
             <div class="row flex-box flex-wrap-wrap">
-                <div class="col-sm-4 flex-box flex-justify-center flex-align-center"><a href="assets/img/hero-background-nature.jpg" class="fancybox" rel="gallery1" title="Hero Image Nature"><img class="img-fluid" src="assets/img/hero-background-nature.jpg"></a></div>
-                <div class="col-sm-4 flex-box flex-justify-center flex-align-center"><a href="assets/img/hero-background-technology.jpg" class="fancybox" rel="gallery1" title="Hero Image Technology"><img class="img-fluid" src="assets/img/hero-background-technology.jpg"></a></div>
-                <div class="col-sm-4 flex-box flex-justify-center flex-align-center"><a href="assets/img/hero-background-travel.jpg" class="fancybox" rel="gallery1" title="Hero Image Travel"><img class="img-fluid" src="assets/img/hero-background-travel.jpg"></a></div>
-                <div class="col-sm-4 flex-box flex-justify-center flex-align-center"><a href="assets/img/hero-background-food.jpg" class="fancybox" rel="gallery1" title="Hero Image Food"><img class="img-fluid" src="assets/img/hero-background-food.jpg"></a></div>
-                <div class="col-sm-4 flex-box flex-justify-center flex-align-center"><a href="assets/img/hero-background-music.jpg" class="fancybox" rel="gallery1" title="Hero Image Music"><img class="img-fluid" src="assets/img/hero-background-music.jpg"></a></div>
-                <div class="col-sm-4 flex-box flex-justify-center flex-align-center"><a href="assets/img/hero-background-photography.jpg" class="fancybox" rel="gallery1" title="Hero Image Photography"><img class="img-fluid" src="assets/img/hero-background-photography.jpg"></a></div>
+                <div class="col-sm-4 flex-box flex-justify-center flex-align-center"><a href="assets/img/bts/bts1.jpg" class="fancybox" rel="gallery1" title="Hero Image Nature"><img class="img-fluid" src="assets/img/bts/bts1.jpg"></a></div>
+                <div class="col-sm-4 flex-box flex-justify-center flex-align-center"><a href="assets/img/bts/bts2.jpg" class="fancybox" rel="gallery1" title="Hero Image Technology"><img class="img-fluid" src="assets/img/bts/bts2.jpg"></a></div>
+                <div class="col-sm-4 flex-box flex-justify-center flex-align-center"><a href="assets/img/bts/bts3.jpg" class="fancybox" rel="gallery1" title="Hero Image Travel"><img class="img-fluid" src="assets/img/bts/bts3.jpg"></a></div>
+                <div class="col-sm-4 flex-box flex-justify-center flex-align-center"><a href="assets/img/bts/bts4.jpg" class="fancybox" rel="gallery1" title="Hero Image Food"><img class="img-fluid" src="assets/img/bts/bts4.jpg"></a></div>
+                <div class="col-sm-4 flex-box flex-justify-center flex-align-center"><a href="assets/img/bts/bts5.jpg" class="fancybox" rel="gallery1" title="Hero Image Music"><img class="img-fluid" src="assets/img/bts/bts5.jpg"></a></div>
+                <div class="col-sm-4 flex-box flex-justify-center flex-align-center"><a href="assets/img/bts/bts6.jpg" class="fancybox" rel="gallery1" title="Hero Image Photography"><img class="img-fluid" src="assets/img/bts/bts6.jpg"></a></div>
             </div>
         </div>
     </section>
@@ -371,11 +374,21 @@ Space systems rely on cutting-edge technology...we are dealing with a system tha
                 <h2 class="text-info" style="color:#8de0f2;">PLAY A GAME!</h2>
                 <p style="width:600;margin:0px auto;max-width:70%;">Play the topsuits game</p>
             </div>
-        </div>
-        <div class="container">
+
+
             <div class="row flex-box flex-wrap-wrap">
-                <div class="col"><img class="img-fluid" src="assets/img/hero-background-nature.jpg"></div>
-            </div>
+              <div class="webgl-content">
+                <div id="gameContainer" style="width: 1600px; height: 900px"></div>
+                <!-- <script>
+                  var gameInstance = UnityLoader.instantiate("gameContainer", "assets/Build/WebGLBuild.json", {onProgress: UnityProgress});
+                </script> -->
+                <div class="footer">
+                  <div class="webgl-logo"></div>
+                  <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+
+                  <div class="title">Astronaut Game</div>
+                </div>
+  </div>
         </div>
 
 
@@ -410,47 +423,28 @@ Space systems rely on cutting-edge technology...we are dealing with a system tha
 
 
 
-    <footer class="page-footer dark">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3">
-                    <h5>Get started</h5>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Sign up</a></li>
-                        <li><a href="#">Downloads</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3">
-                    <h5>About us</h5>
-                    <ul>
-                        <li><a href="#">Company Information</a></li>
-                        <li><a href="#">Contact us</a></li>
-                        <li><a href="#">Reviews</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3">
-                    <h5>Support</h5>
-                    <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Help desk</a></li>
-                        <li><a href="#">Forums</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3">
-                    <h5>Legal</h5>
-                    <ul>
-                        <li><a href="#">Terms of Service</a></li>
-                        <li><a href="#">Terms of Use</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="footer-copyright">
-            <p>© 2018 Copyright Text</p>
-        </div>
-    </footer>
+   <footer class="page-footer dark">
+
+               <div class="row">
+                   <div class="col-sm-9 col-md-6 footer-navigation">
+                       <img src="assets/img/TopSuits_Patch.png" style="height:100px; padding-bottom: 10px;">
+                       <p class="links"><a href="#welcome">Welcome</a><strong> · </strong><a href="#team">Team</a><strong> · </strong><a href="#ar">AR</a><strong> · </strong><a href="#NASA">NASA</a><strong> · </strong><a href="#game">GAME</a><strong> · </strong><a href="#outreach">Outreach</a></p>
+                       <div><i class="fa fa-envelope footer-contacts-icon"></i>
+                           <p> <a href="#" target="_blank">topsuits2018@gmail.com</a></p>
+                       </div>
+                   </div>
+
+                   <div class="clearfix"></div>
+                   <div class="col-md-4 footer-about">
+                       <h4>About Topsuits</h4>
+                       <p> The team is made up of members from the University of Miami and University of North Florida. From backgrounds in biology to computer science, this electic team works together to achieve one end goal: Making cool stuff for space!</p>
+                       <div class="social-links social-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a><a href="#"><i class="fa fa-github"></i></a></div>
+                   </div>
+               </div>
+               <div class="footer-copyright">
+                   <p>© 2018 Copyright Text</p>
+
+   </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/Basic-fancyBox-Gallery.js"></script>
@@ -463,6 +457,9 @@ Space systems rely on cutting-edge technology...we are dealing with a system tha
     <script src="assets/js/zoom.js"></script>
     <script src="assets/js/profile.js"></script>
     <script src="assets/js/stars.js"></script>
+    <!-- <script src="assets/js/TemplateData/UnityProgress.js"></script>
+    <script src="assets/js/Build/UnityLoader.js"></script> -->
+
 </body>
 
 </html>
