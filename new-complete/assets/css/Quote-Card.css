@@ -1,8 +1,8 @@
 .quote-card {
   background:#fff;
   color:#222222;
-  padding:20px;
-  padding-left:50px;
+  padding:100px;
+  padding-left:100px;
   box-sizing:border-box;
   box-shadow:0 2px 4px rgba(34, 34, 34, 0.12);
   position:relative;
@@ -11,7 +11,7 @@
 }
 
 .quote-card p {
-  font-size:22px;
+  font-size:16px;
   line-height:1.5;
   margin:0;
   max-width:80%;
@@ -97,4 +97,3 @@
 
 :root {
 }
-
