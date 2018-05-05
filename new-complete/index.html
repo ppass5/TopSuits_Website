@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Topsuits</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,7 +18,8 @@
     <link rel="stylesheet" href="assets/css/Lightbox-Gallery.css">
     <link rel="stylesheet" href="assets/css/Quote-Card.css">
     <link rel="stylesheet" href="assets/css/flip.css">
-    <link rel="stylesheet" href="assets/TemplateData/style.css">
+    <link rel="stylesheet" href="assets/main.css">
+
 
 
 
@@ -51,7 +54,7 @@
                 <!--astro-->
         <section class="clean-block clean-info" id="welcome">
             <div class="container" >
-                <div class="block-heading" style="margin:0px ;">
+                <div data-aos="slide-up" data-aos-duration="1500" class="block-heading" style="margin:0px ;">
                     <h2 class="text-info" >Welcome</h2>
                     <p style="width:600;margin:0px auto;max-width:70%;">Have you ever played a video game that didn't display your score? Or show you what type of tools you had to use? How confusing would that be! Topsuits is a team of University students that are developing and designing for the NASA
                         Spacesuit User Interface Technologies for Students (NASA S.U.I.T.S) design challenge. The team created a spacesuit visual display using the augmented reality (AR) Microsoft HoloLens. The visual display, or informatics as they call
@@ -63,7 +66,7 @@
 
           <!--team-->
         <section class="clean-block about-us" id="team">
-            <div class="container" >
+            <div  data-aos="slide-up" data-aos-duration="1500" class="container" >
                 <div class="block-heading">
                     <h2 class="text-info" >Team</h2>
                     <p style="width:600px;margin:0 px auto;">The team is made up of members from the University of Miami and University of North Florida. From backgrounds in biology to computer science, this electic team works together to achieve one end goal: Making cool stuff for space!</p>
@@ -237,22 +240,22 @@
           <!--ar-->
 
           <section class="clean-block features" id="ar">
-              <div class="container">
-                  <div class="block-heading">
+              <div data-aos="slide-up" data-aos-duration="1500" class="container">
+                  <div class="block-heading ">
                     <h2 class="text-info">WHAT IS AUGMENTED REALITY?</h2>
                   </div>
                   <div class="row align-items-center">
                       <div class="col-md-6"><img class="img-thumbnail" src="assets/img/i_whatIsAR.jpg"></div>
                       <div class="col-md-6">
-                          <div class="getting-started-info">
+                          <!-- <div class="getting-started-info"> -->
                               <p>The team is using a headset known as the <strong>Microsoft Hololens</strong>. Just like Iron Man's heads up display (HUD), when the user puts on the headset to play a game or conduct a spacewalk, the lens overlays graphics onto the real world space. AR technologies can be used by anything from iPads and other mobile devices to specialized gear like the Hololens our team is working with.</p>
-                          </div>
+                          <!-- </div> -->
                       </div>
                   </div>
               </div>
           </section>
           <section class="clean-block features">
-              <div class="container">
+              <div class="container animated slideInUp">
                   <div class="block-heading">
                       <h2 class="text-info">AR vs VR</h2>
                       <div class="row align-items-center">
@@ -283,14 +286,19 @@
                           </div>
                       </div>
                   </div>
-              </div><blockquote class="quote-card">
+              </div>
+            <div data-aos="slide-left" data-aos-duration="1500" class="container">
+
+
+              <blockquote class="quote-card">
                 <p>Designing for outer space is different from designing for screens. In this environment, we're placing elements in the user's space, so that can become confusing once they start manipulating those elements. On a screen they can click, hover, play something or scroll. In AR, they are able to do much more with those elements.</p>
                 <cite>Morgan Mckie, Designer</cite>
               </blockquote>
+                </div>
             </section>
 
         <section class="clean-block features">
-            <div class="container">
+            <div data-aos="slide-up" data-aos-duration="1500" class="container">
                 <div class="block-heading">
                     <h2 class="text-info">TYPE OF INTERACTIONS</h2>
                     <p>While using the hololens to design for AR, the team uses four different types of interactions for the interface.</p>
@@ -317,7 +325,7 @@
         </section>
     </main>
     <section class="clean-block features" id="nasa">
-        <div class="container">
+        <div data-aos="slide-up" data-aos-duration="1500" class="container">
             <div class="block-heading">
                 <h2 class="text-info">NASA AND AUGMENTED REALITY</h2>
                 <p></p>
@@ -332,14 +340,20 @@
                     </div>
                 </div>
             </div>
-        </div><blockquote class="quote-card">
+        </div>
+        <div data-aos="slide-left" data-aos-duration="1500" class="container">
+
+
+        <blockquote class="quote-card">
 
 <p>
 Space systems rely on cutting-edge technology...we are dealing with a system that needs to be autonomous.  You're going to be far away from earth, your communication time...is going to be this huge delay. There is not going to be this real-time interface, so you have to have something that can allow you make decisions on your own when you are far away from other people...we are trying to leverage these really smart computing systems that are small and travel with you so you can implement those anywhere
 
 </p>
 
-<cite>Brian Hicks, Developer</cite>            </blockquote></section>
+<cite>Brian Hicks, Developer</cite>            </blockquote>
+</div>
+</section>
 
 
 <!--ar end-->
@@ -347,14 +361,14 @@ Space systems rely on cutting-edge technology...we are dealing with a system tha
 <!--nasa-->
 
     <section class="clean-block clean-info">
-        <div class="container">
+        <div data-aos="slide-up" data-aos-duration="1500" class="container">
             <div class="block-heading" style="margin:0px ;">
                 <h2 class="text-info" style="color:#8de0f2;">TOPSUITS AND NASA</h2>
                 <p style="width:600;margin:0px auto;max-width:70%;">With the implications of what augmented reality can do for astronauts in mind, the team works on crafting a prototype. The process requires multiple tries of designing and redesigning. Design team works with the user researcher while the
                     dev team starts crafting the frame. </p>
             </div>
         </div>
-        <div class="container">
+        <div data-aos="slide-up" data-aos-duration="1500" class="container">
             <div class="row flex-box flex-wrap-wrap">
                 <div class="col-sm-4 flex-box flex-justify-center flex-align-center"><a href="assets/img/bts/bts1.jpg" class="fancybox" rel="gallery1" title="Hero Image Nature"><img class="img-fluid" src="assets/img/bts/bts1.jpg"></a></div>
                 <div class="col-sm-4 flex-box flex-justify-center flex-align-center"><a href="assets/img/bts/bts2.jpg" class="fancybox" rel="gallery1" title="Hero Image Technology"><img class="img-fluid" src="assets/img/bts/bts2.jpg"></a></div>
@@ -369,7 +383,7 @@ Space systems rely on cutting-edge technology...we are dealing with a system tha
       <!--nasa end -->
       <!--game-->
     <section class="clean-block clean-info" id="game">
-        <div class="container">
+        <div data-aos="slide-up" data-aos-duration="1500" class="container">
             <div class="block-heading" style="margin:0px ;">
                 <h2 class="text-info" style="color:#8de0f2;">PLAY A GAME!</h2>
                 <p style="width:600;margin:0px auto;max-width:70%;">Play the topsuits game</p>
@@ -382,7 +396,7 @@ Space systems rely on cutting-edge technology...we are dealing with a system tha
                 <div id="gameContainer"></div>
                 <iframe src="https://c.simmer.io/static/unityFrame/index.html?url=https%3A%2F%2Fsimmercdn.com%2Funity%2Fvf9KZNzfUMUjW28POB5QATZ2fFO2%2Fcontent%2F1461d674-4afe-2e91-9958-116d06e6e3ec&imagePath=screens/0.png" style="width:1280px;height:720px;border:0"></iframe>
                 <div class="footer">
-                <div class="title">Astronaut Game</div>
+                <!-- <div class="title">Astronaut Game</div> -->
                 </div>
   </div>
         </div>
@@ -393,7 +407,7 @@ Space systems rely on cutting-edge technology...we are dealing with a system tha
           <!--outreach gallery-->
     <section id="outreach">
     <div class="photo-gallery">
-        <div class="container">
+        <div data-aos="slide-up" data-aos-duration="1500" class="container">
             <div class="intro">
                 <h2 class="text-center">Outreach Gallery</h2>
                 <p class="text-center">Topsuits out in the community. We've been happy to present at CodeArt, Florida Virtual Schools and eMerge Americas. </p>
@@ -438,7 +452,7 @@ Space systems rely on cutting-edge technology...we are dealing with a system tha
                    </div>
                </div>
                <div class="footer-copyright">
-                   <p>© 2018 Copyright Text</p>
+                   <p>© 2018 Copyright</p>
 
    </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -453,6 +467,11 @@ Space systems rely on cutting-edge technology...we are dealing with a system tha
     <script src="assets/js/zoom.js"></script>
     <script src="assets/js/profile.js"></script>
     <script src="assets/js/stars.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
     <!-- <script src="assets/js/TemplateData/UnityProgress.js"></script>
     <script src="assets/js/Build/UnityLoader.js"></script> -->
 
